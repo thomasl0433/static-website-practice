@@ -1,6 +1,18 @@
 body {
-    background-color: hsl(233, 47%, 7%);
-    color: white;
+    background-color: hsl(233, 47%, 7%) !important;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%) !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75) !important;
+}
+
+.num {
+    color: hsla(0, 0%, 100%, 0.6) !important;
 }
 
 .card {
@@ -8,13 +20,15 @@ body {
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    background-color: hsl(244, 38%, 16%) !important;
+    margin: 0 auto;
+    flex-wrap: nowrap;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 img {
     border-radius: 0px 5px 5px 0px;
@@ -22,4 +36,4 @@ img {
 
 .container {
     padding: 2px 16px;
-  }
+}
