@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="styles.css" />
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
   <!-- displays site properly based on user's device -->
 
@@ -30,28 +30,34 @@
 
 <body>
 
-  <div class="card">
-    <h3>Get insights that help your business grow.</h3>
+  <div class="container">
 
-    <div class="container">
+    <div class="col children">
+      <h3>Get <span>insights</span> that help your business grow.</h3>
       <p>
         Discover the benefits of data analytics and make better decisions
         regarding revenue, customer experience, and overall efficiency.
       </p>
 
-      <div class="stats">
-        <div>
-          <div class="num">10k+</div>companies
-        </div>
-        <div>
-          <div class="num">314</div>templates
-        </div>
-        <div>
-          <div class="num">12m+</div> queries
-        </div>
-      </div>
+      <ul class="stats">
+        <li>
+          <div class="num">10k+</div>
+          <div class="title">companies</div>
+        </li>
+        <li>
+          <div class="num">314</div>
+          <div class="title">templates</div>
+        </li>
+        <li>
+          <div class="num">12m+</div>
+          <div class="title">queries</div>
+        </li>
+      </ul>
+      
+    </div>
 
-      <img src="./images/image-header-desktop.jpg" alt="people meeting" />
+    <div class="picture children">
+      <!-- <img src="./images/image-header-desktop.jpg" alt="people meeting" /> -->
     </div>
   </div>
 
